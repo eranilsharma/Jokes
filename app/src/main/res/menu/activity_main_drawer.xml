@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_btn1"
+            android:icon="@drawable/drawer_icon"
+            android:title="Button1" />
+        <item
+            android:id="@+id/nav_btn2"
+            android:icon="@drawable/drawer_icon"
+            android:title="Button2" />
+        <item
+            android:id="@+id/nav_btn3"
+            android:icon="@drawable/drawer_icon"
+            android:title="Button3" />
+        <item
+            android:id="@+id/nav_btn4"
+            android:icon="@drawable/drawer_icon"
+            android:title="Button4" />
+        <item
+            android:id="@+id/nav_btn5"
+            android:icon="@drawable/drawer_icon"
+            android:title="Button5"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rating"
+                android:icon="@drawable/ic_star_border_black_24dp"
+                android:title="Rating" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="About Us" />
+
+        </menu>
+    </item>
+
+</menu>
